@@ -2,10 +2,10 @@
 version: 0.2
 env:
   secrets-manager:
-    LOGIN: psaicharan000/sonar:sonartoken
-    HOST: psaicharan000/sonar:host
-    Organization: psaicharan000/sonar:organization
-    Project: psaicharan000/sonar:Project
+    LOGIN: raidmavenproject:sonartoken
+    HOST: raidmavenproject:host
+    Organization: raidmavenproject:organization
+    Project: raidmavenproject:Project
 Phases:
   install:
     runtime-versions:
