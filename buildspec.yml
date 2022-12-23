@@ -7,9 +7,6 @@ env:
     Organization: raidmavenproject:organization
     Project: raidmavenproject:Project
 Phases:
-  install:
-    runtime-versions:
-      java: openjdk8
   pre_build:
     commands:
       - apt-get update
