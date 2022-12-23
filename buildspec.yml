@@ -1,7 +1,10 @@
 version: 0.2
 env:
     secrets-manager:
-      TOKEN: raidmavenproject:sonartoken
+      LOGIN: Raidproject/sonar:sonartoken
+      HOST: Raidproject/sonar:host
+      Organization: Raidproject/sonar:organization
+      Project: Raidproject/sonar:Project
       
       build:
     commands:
