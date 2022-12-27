@@ -2,10 +2,10 @@
 version: 0.2
 env:
   secrets-manager:
-    LOGIN: raidmavenproject:sonartoken
-    HOST: raidmavenproject:host
-    Organization: raidmavenproject:organization
-    Project: raidmavenproject:Project
+    LOGIN: prod/sonar:sonartoken
+    HOST: prod/sonar:host
+    Organization: prod/sonar:organization
+    Project: prod/sonar:Project
 Phases:
   pre_build:
     commands:
